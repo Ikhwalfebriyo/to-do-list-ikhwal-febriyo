@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 40px 0;
+    text-align: center;
+}
+
+#form-todo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+#control-todo {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#input-todo {
+    width: 80%;
+    border-radius: 10px;
+}
+
+#button-todo {
+    width: 15%;
+    background-color: blue;
+}
+
+#button-todo:hover{
+    background-color: royalblue;
+}
+
+#filter-todo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+#filter-button {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+#button-content {
+    border-radius: 30px;
+    margin: 0 20px;
+}
+
+#todo-list {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content-todo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+#button-action {
+    display: flex;
+}
+
+#button-action button {
+    margin: 0 6px;
+}
+
+@media (max-width: 767px) {
+    .content {
+        width: 100%;
+    }
+}
